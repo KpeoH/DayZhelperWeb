@@ -63,8 +63,8 @@ func main() {
 	http.HandleFunc("/save-passwords", savePasswordsHandler)
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
 
-	fmt.Println("DayzHelper2.0 запущен на порту 8080")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	fmt.Println("DayzHelper2.0 запущен на порту 3000")
+	log.Fatal(http.ListenAndServe(":3000", nil))
 }
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {
