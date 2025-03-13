@@ -1,0 +1,58 @@
+[
+  {
+    "name": "12 калибр (Дробь) (BK-12, BK-133, BK-43, Vaiga)",
+    "damage": 280
+  },
+  {
+    "name": "7.62x54 мм (ВСД, Мосина, ВС-89)",
+    "damage": 145
+  },
+  {
+    "name": ".308 Win (LAR, DMR, CR-550 Savanna, M70 Tundra, Blaze, Longhorn)",
+    "damage": 142
+  },
+  {
+    "name": "Арбалет",
+    "damage": 125
+  },
+  {
+    "name": "5.45x39 мм (KA-74, KA-74U, SSG 82)",
+    "damage": 114
+  },
+  {
+    "name": "12 калибр (Пуля) (BK-12, BK-133, BK-43, Vaiga)",
+    "damage": 110
+  },
+  {
+    "name": "5.56x45 мм (AUR A1, AUR AX, KA-101, LE-MAS, M16-A2, M4-A1, Pioneer)",
+    "damage": 106
+  },
+  {
+    "name": "7.62x39 мм (KA-M, CR-527, SKS, BK-18)",
+    "damage": 90
+  },
+  {
+    "name": "9x39 мм (SVAL, Vikhr, VSS)",
+    "damage": 75
+  },
+  {
+    "name": ".357 (Deagle, Derringer, Revolver, Repeater)",
+    "damage": 58
+  },
+  {
+    "name": "9x19 мм (SG5-K, Mlock-91, CR-75, P1)",
+    "damage": 39
+  },
+  {
+    "name": ".45 ACP (USG-45, Kolt 1911, FX-45)",
+    "damage": 37
+  },
+  {
+    "name": ".380 ACP (IJ-70, Bizon, CR-61 Skorpion)",
+    "damage": 35
+  },
+  {
+    "name": "22 LR (MK II, Sporter)",
+    "damage": 20
+  }
+]

@@ -1,0 +1,33 @@
+<!-- templates/layout.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DayzHelper2.0</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="shortcut icon" href="/static/DayZ.ico" type="image/x-icon">
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>DayzHelper2.0</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Главная</a></li>
+                <li><a href="/password">Генератор паролей</a></li>
+                <li><a href="/raid">Калькулятор рейда</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="container">
+    {{block "content" .}}{{end}}
+</main>
+<footer>
+    <div class="container">
+        <p>&copy; 2025 DayzHelper2.0.</p>
+    </div>
+</footer>
+</body>
+</html>

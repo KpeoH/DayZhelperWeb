@@ -1,0 +1,10 @@
+{{define "content"}}
+<h2>Результат расчета</h2>
+<div class="result">
+    <p><strong>Оружие:</strong> {{.Weapon}}</p>
+    <p><strong>Тип стены:</strong> {{.WallType}}</p>
+    <p><strong>Коэффициент здоровья:</strong> {{.HealthMultiplier}}</p>
+    <p><strong>Необходимое количество выстрелов:</strong> {{.ShotsNeeded}}</p>
+</div>
+<a href="/raid" class="btn">Новый расчет</a>
+{{end}}
